@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: 33vw;
+    height: 200px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#box-one {
+    background-color: cyan;
+}
+
+#box-three {
+  background-color:  rgb(12, 247, 12);
+}
+
+.row-two-col {
+    width: 33vw ;
+    height: 350px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#box-five {
+    background-color: rgb(236, 233, 13);
+}
+
+#box-seven {
+    background-color: rgb(235, 137, 17);
+}
+
+#box-nine {
+    background-color: rgb(14, 158, 110);
+}
+
+
+.change-color:hover {
+    background-color: rgb(48, 63, 133) !important;
+}
